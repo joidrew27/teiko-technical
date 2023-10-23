@@ -1,0 +1,6 @@
+sample,total_count,population,count,percentage
+s5,150000,b_cell,60000,40.0
+s5,150000,cd8_t_cell,30000,20.0
+s5,150000,cd4_t_cell,37500,25.0
+s5,150000,nk_cell,4500,3.0
+s5,150000,monocyte,18000,12.0
