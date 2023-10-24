@@ -21,14 +21,26 @@ python freq_converter.py
 a. For each immune cell population, please generate a boxplot of the population relative frequencies comparing responders versus non-responders.
 
 ```
+pip install panda
 pip install matplotlib
-pip install seaborn
 pip install scipy
+python freq_comparer.py
 ```
 
 b. Which cell populations show a difference between responders and non-responders? Please include statistics to support your conclusion.
-
+```
+pip install panda
+pip install matplotlib
+pip install scipy
+python freq_comparer.py
+```
 Please return both the code and the outputs. Please also specify any dependencies that you use and instructions on how to run your code to reproduce the outputs.
+
+There is no significant difference between responders and non-responders for b_cell
+There is no significant difference between responders and non-responders for cd8_t_cell
+There is no significant difference between responders and non-responders for cd4_t_cell
+There is no significant difference between responders and non-responders for nk_cell
+There is a significant difference between responders and non-responders for monocyte
 
 Database:
 1. How would you design a database to capture the type of information and data in cell-count.csv? Imagine that you’d have hundreds of projects, thousands of samples and various types of analytics you’d want to perform, including the example analysis of responders versus non-responders comparisons above. Please provide a rough prototype schema.
