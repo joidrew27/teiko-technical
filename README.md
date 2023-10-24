@@ -17,6 +17,7 @@ python freq_converter.py
 ```
 
 2. Among patients who have treatment tr1, we are interested in comparing the differences in cell population relative frequencies of melanoma patients who respond (responders) to tr1 versus those who do not (non-responders), with the overarching aim of predicting response to treatment tr1. Response information can be found in column response, with value y for responding and value n for non-responding. Please only include PBMC (blood) samples. 
+
 a. For each immune cell population, please generate a boxplot of the population relative frequencies comparing responders versus non-responders.
 
 ```
